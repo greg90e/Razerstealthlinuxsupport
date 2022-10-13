@@ -7,3 +7,5 @@ prime-select intel
 apt-get remove --purge nvidia-*
 ubuntu-drivers autoinstall
 apt-get update && apt-get upgrade 
+```
+The above commands will fix a known issue with linux pulling the wrong graphics driver as of ubuntu 21.04
